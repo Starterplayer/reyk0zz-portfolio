@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
         rel="stylesheet" />
   <!-- Your stylesheet -->
-  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="page">
@@ -22,12 +22,20 @@
         <div class="nav-logo">
           REYK<span>0ZZ</span>
         </div>
-        <div class="nav-links">
-          <a href="#hero">Home</a>
-          <a href="#services">Services</a>
-          <a href="#work">Systems</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#contact">Contact</a>
+
+        <div class="nav-right">
+          <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#services">Services</a>
+            <a href="#work">Systems</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="nav-status">
+            <span class="dot"></span>
+            <span class="nav-status-text">Commissions open</span>
+          </div>
         </div>
       </div>
     </nav>
@@ -44,13 +52,13 @@
 
             <h1 class="hero-title">
               Hi, I'm <span>Reyk0zz</span>.<br />
-              I script systems that make your Roblox game feel alive.
+              I script typed, modular systems for Roblox games.
             </h1>
 
             <p class="hero-subtitle">
-              I have around one year of experience scripting on Roblox and I’m constantly learning.  
-              I enjoy building clear, modular systems for gameplay, AI and data – with strict Luau typing and
-              readable code – while also improving my front-end and UI skills so everything feels smooth for players.
+              I’ve got around one year of Roblox scripting experience and I’m still learning every day.
+              I focus on gameplay systems, AI and data with strict Luau typing and clean structure,
+              while improving my front-end and UI skills to make everything feel smooth for players.
             </p>
 
             <div class="hero-actions">
@@ -67,13 +75,20 @@
                 <span class="hero-stat-number">~1 year</span>
                 <span>Roblox scripting experience</span>
               </div>
+
               <div class="hero-stat-block">
                 <span class="hero-stat-number">Typed Luau</span>
-                <span>Strict types & clean structure</span>
+                <span>Strict types & modular architecture</span>
               </div>
+
               <div class="hero-stat-block">
-                <span class="hero-stat-number">FR / EN</span>
-                <span>Comfortable communicating in both</span>
+                <span class="hero-stat-number">Clients</span>
+                <span>Slot reserved for future commissions</span>
+              </div>
+
+              <div class="hero-stat-block">
+                <span class="hero-stat-number">Contributed to</span>
+                <span>Will update as I join projects</span>
               </div>
             </div>
           </div>
@@ -81,17 +96,17 @@
           <aside class="hero-card">
             <div class="hero-card-title">What I focus on</div>
             <ul class="hero-card-list">
-              <li>Gameplay systems built with modular, well-typed Luau</li>
+              <li>Gameplay systems in well-typed Luau (strict typechecking)</li>
               <li>AI & NPC logic (chase, patrol, basic bosses, behaviours)</li>
               <li>Data saving for stats, profiles and simple inventories</li>
               <li>Connecting UI with backend (shops, dialogue, cooldowns)</li>
-              <li>Improving front-end: layout, feedback, UX & polish</li>
-              <li>Delivering work quickly when the task is clearly scoped</li>
+              <li>Improving front-end: layout, feedback, usability</li>
+              <li>Fast delivery when the task is clearly scoped</li>
             </ul>
 
             <div class="hero-badge">
-              <span class="hero-badge-tag">Available</span>
-              <span>Per-task work · 50% upfront / 50% on delivery</span>
+              <span class="hero-badge-tag">Work style</span>
+              <span>Per-task · 50% upfront / 50% on delivery</span>
             </div>
           </aside>
         </div>
@@ -104,8 +119,8 @@
             <div class="section-eyebrow">Services</div>
             <h2 class="section-title">What I can help you build</h2>
             <p class="section-desc">
-              I like working on specific systems rather than whole games from zero.  
-              My goal is to give you solid building blocks – with typed, documented code – that you can plug into your project.
+              I prefer working on specific systems rather than whole games from zero.
+              My goal is to give you solid, typed building blocks you can plug into your project and extend later.
             </p>
           </div>
 
@@ -117,7 +132,7 @@
                 <ul class="card-list">
                   <li>Player stats, XP and progression</li>
                   <li>Basic inventory & currency handling</li>
-                  <li>Clean, typed RemoteEvent patterns (client ↔ server)</li>
+                  <li>Typed RemoteEvent patterns (client ↔ server)</li>
                   <li>Simple OOP-style services and managers</li>
                 </ul>
               </div>
@@ -129,7 +144,7 @@
                 Make your world feel more dynamic with responsive NPCs.
                 <ul class="card-list">
                   <li>Pathfinding-based chase and patrol logic</li>
-                  <li>Basic boss-style behaviours with multiple phases</li>
+                  <li>Basic boss behaviours with multiple phases</li>
                   <li>Wave / spawn controllers</li>
                   <li>Interaction triggers (zones, prompts, dialogue)</li>
                 </ul>
@@ -146,6 +161,69 @@
                   <li>Cooldown displays and ability indicators</li>
                   <li>Small UX tweaks to make your UI feel smoother</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MEDIA / DEMOS (SOON) -->
+      <section id="media">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-eyebrow">Showcase</div>
+            <h2 class="section-title">Videos & screenshots (coming soon)</h2>
+            <p class="section-desc">
+              I’m recording clean demos of my systems (AI, dialogue, inventory, tools).
+              This section will show short clips and screenshots so you can see everything in action.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card media-card">
+              <div class="media-placeholder">
+                <span class="soon-label">SOON</span>
+              </div>
+              <div class="project-title">Boss AI demo</div>
+              <div class="project-desc">
+                Planned clip showing pathfinding, chase behaviour, distance checks and phase changes.
+              </div>
+              <!--
+                ▶ Quand tu auras une vidéo pour ce système, tu pourras remplacer le bloc .media-placeholder par :
+
+                <div class="media-video">
+                  <video controls src="videos/boss-ai-demo.mp4"></video>
+                </div>
+
+                ou un embed YouTube :
+
+                <div class="media-video">
+                  <iframe width="100%" height="220"
+                          src="https://www.youtube.com/embed/TON_ID_DE_VIDEO"
+                          title="Boss AI demo"
+                          frameborder="0"
+                          allowfullscreen></iframe>
+                </div>
+              -->
+            </div>
+
+            <div class="card media-card">
+              <div class="media-placeholder">
+                <span class="soon-label">SOON</span>
+              </div>
+              <div class="project-title">Inventory & profile demo</div>
+              <div class="project-desc">
+                Short demo planned to show saving/loading, item management and typed APIs in action.
+              </div>
+            </div>
+
+            <div class="card media-card">
+              <div class="media-placeholder">
+                <span class="soon-label">SOON</span>
+              </div>
+              <div class="project-title">Dialogue & UI demo</div>
+              <div class="project-desc">
+                Preview of data-driven dialogue, choices and synced UI flow with clean transitions.
               </div>
             </div>
           </div>
@@ -175,23 +253,6 @@
                 NPC that chases players using Pathfinding, manages distance checks and switches
                 between multiple attacks or behaviours depending on health or timers.
               </div>
-              <!--
-                VIDEO DEMO PLACEHOLDER
-                ▶ Quand tu auras une vidéo pour ce système, tu peux la mettre ici :
-
-                <div class="project-video">
-                  <video controls src="videos/boss-ai-demo.mp4"></video>
-                </div>
-
-                ou bien un embed YouTube :
-
-                <div class="project-video">
-                  <iframe width="100%" height="250"
-                          src="https://www.youtube.com/embed/TON_ID_DE_VIDEO"
-                          title="Boss AI demo" frameborder="0"
-                          allowfullscreen></iframe>
-                </div>
-              -->
               <div class="project-meta">
                 • Server-side logic with configuration modules for tuning
               </div>
@@ -205,14 +266,8 @@
               <div class="project-title">Player profiles & data saving</div>
               <div class="project-desc">
                 Profiles that store stats, currency and simple inventory data, using safe DataStore
-                patterns, pcall and clear typed APIs so other scripts can easily read/write player info.
+                patterns, pcall and typed APIs so other scripts can easily read/write player info.
               </div>
-              <!--
-                VIDEO DEMO PLACEHOLDER (DATA / INVENTORY)
-                <div class="project-video">
-                  <video controls src="videos/profile-inventory-demo.mp4"></video>
-                </div>
-              -->
               <div class="project-meta">
                 • Good starting point for larger progression systems
               </div>
@@ -228,15 +283,6 @@
                 NPC dialogue built from data tables, with choices, simple branching and UI that
                 stays in sync with server logic.
               </div>
-              <!--
-                VIDEO DEMO PLACEHOLDER (DIALOGUE)
-                <div class="project-video">
-                  <iframe width="100%" height="250"
-                          src="https://www.youtube.com/embed/TON_ID_DE_VIDEO"
-                          title="Dialogue system demo" frameborder="0"
-                          allowfullscreen></iframe>
-                </div>
-              -->
               <div class="project-meta">
                 • Data-driven, easy to extend with more NPCs and quests
               </div>
@@ -252,79 +298,8 @@
                 Cleaning up existing scripts, reorganizing them into modules, fixing bugs and
                 adding small tools (debug, admin, QoL systems) to keep your project maintainable.
               </div>
-              <!--
-                VIDEO DEMO PLACEHOLDER (TOOLS / POLISH)
-                <div class="project-video">
-                  <video controls src="videos/tools-demo.mp4"></video>
-                </div>
-              -->
               <div class="project-meta">
                 • Ideal if you already have a game but need a scripter to refine it
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-            <!-- MEDIA / DEMOS (SOON) -->
-      <section id="media">
-        <div class="container">
-          <div class="section-header">
-            <div class="section-eyebrow">Showcase</div>
-            <h2 class="section-title">Videos & screenshots (coming soon)</h2>
-            <p class="section-desc">
-              I’m currently recording clean demos of my systems (AI, dialogue, inventory, tools).
-              This section will soon show short clips and screenshots so you can see everything in action.
-            </p>
-          </div>
-
-          <div class="grid-3">
-            <div class="card media-card">
-              <div class="media-placeholder">
-                <span class="soon-label">SOON</span>
-              </div>
-              <div class="project-title">Boss AI demo</div>
-              <div class="project-desc">
-                Short video showing pathfinding, chase behaviour, distance checks and phase changes.
-              </div>
-
-              <!--
-                👉 Quand tu auras la vidéo du boss :
-                Remplace le bloc .media-placeholder ci-dessus par par exemple :
-
-                <div class="media-video">
-                  <video controls src="videos/boss-ai-demo.mp4"></video>
-                </div>
-
-                ou un embed YouTube :
-
-                <div class="media-video">
-                  <iframe width="100%" height="220"
-                          src="https://www.youtube.com/embed/TON_ID_DE_VIDEO"
-                          title="Boss AI demo"
-                          frameborder="0"
-                          allowfullscreen></iframe>
-                </div>
-              -->
-            </div>
-
-            <div class="card media-card">
-              <div class="media-placeholder">
-                <span class="soon-label">SOON</span>
-              </div>
-              <div class="project-title">Inventory & profile demo</div>
-              <div class="project-desc">
-                Planned clip showing saving/loading, item management and typed APIs in action.
-              </div>
-              <!-- Même principe, tu remplaceras le placeholder par une vidéo ou un screen -->
-            </div>
-
-            <div class="card media-card">
-              <div class="media-placeholder">
-                <span class="soon-label">SOON</span>
-              </div>
-              <div class="project-title">Dialogue & UI demo</div>
-              <div class="project-desc">
-                Preview of data-driven dialogue, choices and synced UI flow.
               </div>
             </div>
           </div>
@@ -340,7 +315,7 @@
             <p class="section-desc">
               I’m still building my portfolio, so my prices stay reasonable while I gain more experience.
               I charge per task, with 50% upfront and 50% on delivery for bigger systems.
-              Below are rough ranges – we can always adjust based on your project.
+              These ranges are a starting point – we can always adjust based on your project.
             </p>
           </div>
 
@@ -407,7 +382,7 @@
               <div>
                 <div class="contact-label">About me</div>
                 <div>
-                  ~1 year of Roblox scripting · strict Luau typing · fast when the task is clear · 
+                  ~1 year of Roblox scripting · strict Luau typing · fast when the task is clear ·
                   focused on gameplay systems, AI and data, while improving my front-end skills.
                 </div>
               </div>
@@ -431,5 +406,3 @@
   </script>
 </body>
 </html>
-
-
