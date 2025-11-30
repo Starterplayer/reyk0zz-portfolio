@@ -68,6 +68,10 @@
               <button class="btn-ghost" onclick="document.querySelector('#work').scrollIntoView({behavior:'smooth'})">
                 View systems
               </button>
+              <button class="btn-ghost"
+                onclick="window.open('https://www.roblox.com/users/7834053141/profile','_blank')">
+                My Roblox
+              </button>
             </div>
 
             <div class="hero-stats">
@@ -167,68 +171,56 @@
         </div>
       </section>
 
-      <!-- MEDIA / DEMOS (SOON) -->
-      <section id="media">
-        <div class="container">
-          <div class="section-header">
-            <div class="section-eyebrow">Showcase</div>
-            <h2 class="section-title">Videos & screenshots (coming soon)</h2>
-            <p class="section-desc">
-              I’m recording clean demos of my systems (AI, dialogue, inventory, tools).
-              This section will show short clips and screenshots so you can see everything in action.
-            </p>
-          </div>
+<!-- MEDIA / DEMOS (SOON) -->
+<section id="media">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-eyebrow">Showcase</div>
+      <h2 class="section-title">Videos & screenshots (coming soon)</h2>
+      <p class="section-desc">
+        I’m recording clean demos of my systems (AI, dialogue, inventory, tools).
+        This section will show short clips and screenshots so you can see everything in action.
+      </p>
+    </div>
 
-          <div class="grid-3">
-            <div class="card media-card">
-              <div class="media-placeholder">
-                <span class="soon-label">SOON</span>
-              </div>
-              <div class="project-title">Boss AI demo</div>
-              <div class="project-desc">
-                Planned clip showing pathfinding, chase behaviour, distance checks and phase changes.
-              </div>
-              <!--
-                ▶ Quand tu auras une vidéo pour ce système, tu pourras remplacer le bloc .media-placeholder par :
+    <div class="grid-3">
 
-                <div class="media-video">
-                  <video controls src="videos/boss-ai-demo.mp4"></video>
-                </div>
-
-                ou un embed YouTube :
-
-                <div class="media-video">
-                  <iframe width="100%" height="220"
-                          src="https://www.youtube.com/embed/TON_ID_DE_VIDEO"
-                          title="Boss AI demo"
-                          frameborder="0"
-                          allowfullscreen></iframe>
-                </div>
-              -->
-            </div>
-
-            <div class="card media-card">
-              <div class="media-placeholder">
-                <span class="soon-label">SOON</span>
-              </div>
-              <div class="project-title">Inventory & profile demo</div>
-              <div class="project-desc">
-                Short demo planned to show saving/loading, item management and typed APIs in action.
-              </div>
-            </div>
-
-            <div class="card media-card">
-              <div class="media-placeholder">
-                <span class="soon-label">SOON</span>
-              </div>
-              <div class="project-title">Dialogue & UI demo</div>
-              <div class="project-desc">
-                Preview of data-driven dialogue, choices and synced UI flow with clean transitions.
-              </div>
-            </div>
-          </div>
+      <!-- Boss AI demo (SOON uniquement) -->
+      <div class="card media-card">
+        <div class="media-placeholder">
+          <span class="soon-label">SOON</span>
         </div>
-      </section>
+        <div class="project-title">Boss AI demo</div>
+        <div class="project-desc">
+          Planned clip showing pathfinding, chase behaviour, distance checks and phase changes.
+        </div>
+      </div>
+
+      <!-- Inventory & profile demo (VIDÉO ICI) -->
+      <div class="card media-card">
+        <div class="media-video">
+          <video controls preload="metadata" src="assets/videos/inventory-portfolio.mp4"></video>
+        </div>
+        <div class="project-title">Inventory & profile demo</div>
+        <div class="project-desc">
+          Short demo planned to show saving/loading, item management and typed APIs in action.
+        </div>
+      </div>
+
+      <!-- Dialogue demo (SOON) -->
+      <div class="card media-card">
+        <div class="media-placeholder">
+          <span class="soon-label">SOON</span>
+        </div>
+        <div class="project-title">Dialogue & UI demo</div>
+        <div class="project-desc">
+          Preview of data-driven dialogue, choices and synced UI flow with clean transitions.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <!-- WORK / SYSTEMS -->
       <section id="work">
